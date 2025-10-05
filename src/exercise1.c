@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char** argv){
-  float res;
+  float res = 0;
    double che[10];
     for(int i = 0; i < 10; ++i){
         scanf("%lf", &che[i]);
