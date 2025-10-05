@@ -2,7 +2,7 @@
 
 int main(int argc, char** argv){
 
-    double che[10];
+  unsigned  double che[10];
     printf("vvedite 10 celix chisel\n");
     for(int i = 0; i < 10; ++i){
         scanf("%lf", &che[i]);

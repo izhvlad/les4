@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main(int argc, char** argv){
- float res;
-    double che[10];
-    printf("vvedite 10 celix chisel\n");
+  float res;
+   double che[10];
     for(int i = 0; i < 10; ++i){
         scanf("%lf", &che[i]);
     }
@@ -12,7 +11,5 @@ res += che[i];
     }
     printf("%.2lf", res/10);
 return 0;
-
-
 
 }
