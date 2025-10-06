@@ -10,9 +10,7 @@ int main(int argc, char** argv){
     res += che[i];
     }
     res *= 10;
-
-
-    printf("%.2lf", res/100);
+        printf("%.3f", res/100);
 return 0;
 
 }
