@@ -54,7 +54,7 @@ for(int i = 0; i < numsSize - 1; i++){
 return flug;
 }
 
-int* merge(int* intervals, int intervalsSize, int* returnSize) {
+/*int* merge(int* intervals, int intervalsSize, int* returnSize) {
     return NULL;
-}
+}*/
 
